@@ -7,11 +7,25 @@
     "_name": "_961fd0f0"
   },
   {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/chrishsieh/code/minecode/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_3bc529db"
+  },
+  {
     "name": "Home",
     "path": "/Home",
     "component": "/Users/chrishsieh/code/minecode/pages/Home.vue",
     "chunkName": "pages/Home",
     "_name": "_218ea858"
+  },
+  {
+    "name": "news",
+    "path": "/news",
+    "component": "/Users/chrishsieh/code/minecode/pages/news.vue",
+    "chunkName": "pages/news",
+    "_name": "_5b7cc3a8"
   },
   {
     "name": "PageNotFound",

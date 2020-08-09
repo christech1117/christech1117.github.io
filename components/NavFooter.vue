@@ -2,15 +2,16 @@
   <div id="footer">
     <el-row class="footer-top">
       <div class="container">
-        <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="brand text-center">
-          <img srcset="@/assets/images/brand.png 1x, @/assets/images/brand@2x.png 2x" alt="banner">
-        </el-col>
-        <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
-          <div class="footer-content">GOLAGOLA 是 2019 年成立的跨國快遞媒合公司，透過每日往來各地的國際旅客，快遞寄送人將能用更經濟的價格，享受快速且可靠的運送服務。</div>
+        <!-- <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" class="brand text-center"> -->
+          <!-- <img srcset="@/assets/images/brand.png 1x, @/assets/images/brand@2x.png 2x" alt="banner"> -->
+          <!-- <p style="font-size: 4rem; font-family:Comic Sans MS; color:#264d80">MINECODE</p> -->
+        <!-- </el-col> -->
+        <el-col :xs="24" :sm="24" :md="24" :lg="24" :xl="24">
+          <div class="footer-content text-center">MINECODE 是由資深工程師及設計師組成的團隊，透過長期豐富的經驗，提供專業的服務及更經濟的價格，享受快速且可靠的專業服務。</div>
         </el-col>
       </div>
     </el-row>
-    <el-row>
+    <!-- <el-row>
       <div class="container">
         <div class="footer">
           <div class="logo">
@@ -33,10 +34,10 @@
           </div>
         </div>
       </div>
-    </el-row>
+    </el-row> -->
     <el-row class="footer-bottom">
       <div class="container">
-        <div>© 2019 golagola.com, All Rights Reserved.</div>
+        <div>© 2020 minecode, All Rights Reserved.</div>
       </div>
     </el-row>
   </div>

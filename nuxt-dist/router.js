@@ -4,7 +4,9 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _961fd0f0 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _3bc529db = () => interopDefault(import('../pages/contact.vue' /* webpackChunkName: "pages/contact" */))
 const _218ea858 = () => interopDefault(import('../pages/Home.vue' /* webpackChunkName: "pages/Home" */))
+const _5b7cc3a8 = () => interopDefault(import('../pages/news.vue' /* webpackChunkName: "pages/news" */))
 const _fc213ada = () => interopDefault(import('../pages/PageNotFound.vue' /* webpackChunkName: "pages/PageNotFound" */))
 const _da1d957a = () => interopDefault(import('../pages/privacy.vue' /* webpackChunkName: "pages/privacy" */))
 const _73370c20 = () => interopDefault(import('../pages/service.vue' /* webpackChunkName: "pages/service" */))
@@ -32,9 +34,17 @@ export const routerOptions = {
     component: _961fd0f0,
     name: "about"
   }, {
+    path: "/contact",
+    component: _3bc529db,
+    name: "contact"
+  }, {
     path: "/Home",
     component: _218ea858,
     name: "Home"
+  }, {
+    path: "/news",
+    component: _5b7cc3a8,
+    name: "news"
   }, {
     path: "/PageNotFound",
     component: _fc213ada,

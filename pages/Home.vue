@@ -1,12 +1,10 @@
 <template>
   <div>
-    <nav-bar />
     <banner />
     <advantage />
     <service />
     <!-- <calculation /> -->
     <transmit />
-    <!-- <nav-footer /> -->
     <!-- <a-back-top /> -->
   </div>
 </template>

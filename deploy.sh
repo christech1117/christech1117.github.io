@@ -8,6 +8,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-# 部署到 https://github.com/christech1117/minecode.git 分支為 gh-pages
-git push -f https://github.com/christech1117/minecode.git master:gh-pages
+# 部署到 https://github.com/christech1117/christech1117.github.io.git 分支為 gh-pages
+git push -f https://github.com/christech1117/christech1117.github.io.git master:gh-pages
 cd -

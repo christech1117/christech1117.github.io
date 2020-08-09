@@ -1,26 +1,84 @@
-#service {
-  background: url('../../assets/images/service-bg.png') no-repeat center top;
-  // margin: 100px auto;
-  padding: 147px 0 100px 0;
+@media (min-width: 768px) {
+  section.service ul {
+      margin: 50px 0 100px;
+      display: flex;
+  }
+}
+@media (min-width: 992px) {
+  section.service ul {
+      margin: 50px 0;
+  }
+}
 
-  img {
+@media (min-width: 992px) {
+  section.service ul li .content {
+    padding: 30px 10px 50px 10px;
+  }
+}
+section.service ul li .content {
+  border-radius: 30px;
+  padding: 30px 10px;
+  background-color: #fff;
+  box-shadow: 0 20px 20px 0 rgba(0,0,0,.1);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section.service ul li {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  section.service ul li {
+    padding: 0 10px;
+  }
+}
+@media (min-width: 992px) {
+  section.service ul li {
+    padding: 0 20px;
+  }
+}
+
+section.service ul li .content .thumb {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+section.service ul li .content .thumb img {
+  width: auto;
+  margin: auto;
+  height: 55px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+iframe, img {
+  vertical-align: top;
+}
+
+
+section.service ul li .content .title {
+    color: #264d80;
     width: 100%;
+    font-weight: 500;
+    line-height: 1.2;
+}
+@media (min-width: 768px) {
+  section.service ul li .content .title {
+    font-size: 21px;
+    margin-bottom: 10px;
   }
-
-  .box {
-    width: 550px;
-    height: 100%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    .content {
-      font-size: 20px;
-    }
+}
+@media (min-width: 992px) {
+  section.service ul li .content .title {
+      font-size: 24px;
   }
+}
 
-  .zone {
-    margin-top: 149px;
-  }
+section.service ul li .content p {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 0;
 }
